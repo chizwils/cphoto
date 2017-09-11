@@ -3,4 +3,33 @@
 }
 body{
     background: black;
+    overflow: hidden;
+    font-size:16px;
+}
+.dp-menu ul li{
+    
+}
+
+.dp-menu {
+    position: absolute;
+    top:1%;
+    
+    width: 100vw;
+    
+    
+    text-align: center;
+    z-index: -3;
+}
+.invisible{
+    visibility: hidden;
+    
+}
+.dp-menu a{
+    font-size: 12rem;
+}
+.dp-menu a:hover{
+    text-decoration: line-through;
+}
+.menu-b {
+    z-index: 20;
 }
