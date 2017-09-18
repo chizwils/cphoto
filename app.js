@@ -1,7 +1,5 @@
 $(document).ready(function(){
-    $('.menu-b').click(function(){
-        $(this).toggleClass('is-active');
-        $('.dp-menu').toggleClass('invisible')                 
-      });
     
+     $('#textarea1').val('New Text');
+  $('#textarea1').trigger('autoresize');
 })
