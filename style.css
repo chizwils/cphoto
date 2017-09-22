@@ -110,6 +110,56 @@ nav ul a {
     border-bottom: 1px solid #EFF2F1!important;
      box-shadow: 0 1px 0 0 #EFF2F1!important;
 }
+.p{
+    
+    font-size: calc(100% + 1vw);
+    height: 100%;
+    font-weight: 200;
+    margin: 1rem;
+    padding: 0;
+}
+.rt h6{
+    
+    
+    
+    color: #EFF2F1;
+}
+.model{
+    
+    
+}
+.model img{
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+     max-height: 100vh;
+    max-width: 100vh;
+    width:100vh;
+    
+    transition: all 0.8s linear;
+    
+}
+.model img:hover{
+    opacity: 0.2;
+     
+}
+.cat{
+   
+    
+    position: absolute;
+    bottom: 10%;
+    left: 75%;
+    
+}
+.view{
+    background-color: #EFF2F1!important;
+    left: 25%;
+}
+.view i{
+    color: #202020!important;
+    
+}
+
  /*********SVG INTRO******/  
 .svg-wrap{
     height: 100vh;
@@ -123,14 +173,14 @@ nav ul a {
 #outer-c{
    
     
-  animation: dash 10s ease infinite;
+  animation: dash 1s ease-in infinite;
 }
 
 @keyframes dash {
   0% { opacity: 1; }
-  10% { opacity: 1; }
+  10% { opacity: 0; }
   15% { opacity: 0; }
-  100% { opacity: 0; }
+  100% { opacity: 1; }
 } 
    
 
